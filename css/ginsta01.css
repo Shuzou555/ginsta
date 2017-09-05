@@ -1,0 +1,142 @@
+body,h1,p{
+  font-family: fantasy;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.contener{
+  width: 90%;
+  margin: 0 auto;
+}
+
+header{
+  height: 60px;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+  position:fixed;
+  top:0;
+
+  /* z-indexを10に指定してください */
+  z-index:10;
+}
+
+.left-header{
+  float: left;
+}
+
+.right-header{
+  float: right;
+}
+
+.right-header a{
+  line-height: 50px;
+  margin-left: 20px;
+  color: #000;
+}
+
+.top-wrapper {
+  padding: 200px 0 100px 0;
+  height: 250px;
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1{
+  font-size: 70px;
+  font-family: fantasy;
+}
+
+.page-wrapper{
+  width: 25%;
+  float: left;
+}
+
+.create-page p{
+  display: block;
+}
+
+
+.create-page input{
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.create-page textarea{
+ display: block;
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+
+.create-page{
+    margin:50px 0;
+    position: relative;
+    padding: 0.25em 1em;
+    border: solid 2px #ffcb8a;
+    border-radius: 3px 0 3px 0;
+}
+.create-page:before,.create-page:after
+{
+    content: '';
+    position: absolute;
+    width:10px;
+    height: 10px;
+    border: solid 2px #ffcb8a;
+    border-radius: 50%;
+}
+.create-page:after {
+    top:-12px;
+    left:-12px;
+}
+.create-page:before {
+    bottom:-12px;
+    right:-12px;
+}
+.create-page p {
+    margin: 0;
+    padding: 0;
+}
+
+.path-pages{
+  float: right;
+  width: 70%;
+  margin-bottom: 20px;
+  /*padding-left: 20px;*/
+  /*padding: 0 auto;*/
+
+}
+
+.path-pages h2{
+  text-align: center;
+  display: block;
+  /*padding: 20px 0;*/
+  margin-right: 25px;
+}
+
+.page{
+  width: 35%;
+  padding:0 5%;
+  padding-top:5%;
+  border: solid 1px #000;
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.page p{
+  word-wrap:break-word;
+}
+
+footer{
+  border-top: solid 1px #000;
+}
+.left-footer{
+    float: left;
+}
